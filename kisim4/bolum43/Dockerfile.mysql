@@ -1,0 +1,2 @@
+FROM mysql:5.7
+COPY tabloyarat.sql /docker-entrypoint-initdb.d

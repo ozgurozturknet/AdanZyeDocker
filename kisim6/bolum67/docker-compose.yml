@@ -1,0 +1,38 @@
+version: "3.7"
+
+services:
+  veritabani:
+    image: mysql:5.7
+    restart: always
+    volumes:
+       - verilerim:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: somewordpress
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+    networks:
+      - wpnet
+  
+  wordpress:
+    image: wordpress:latest
+    depends_on:
+      - veritabani
+    restart: always
+    ports: 
+      - "80:80"
+    environment: 
+      WORDPRESS_DB_HOST: veritabani:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+    networks: 
+      - wpnet
+
+
+volumes:
+  verilerim:
+
+networks:
+  wpnet:
+    driver: bridge
