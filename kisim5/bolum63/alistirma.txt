@@ -11,7 +11,7 @@ ve ardından sistemdeki tüm imajları silin
 5: Centos imajının latest ve 7, ubuntu imajının latest, 18.04 ve 20.04, alpine imajının latest, 
 nginx imajının latest ve alpine tagli imajlarını sisteme çekin. 
 
-6: ubuntu:18.04 imajına dockerhubkullaniciadiniz/alisitirma:ubuntu olarak tag ekleyin ve ardından bu yeni imajı 
+6: ubuntu:18.04 imajına dockerhubkullaniciadiniz/alistirma:ubuntu olarak tag ekleyin ve ardından bu yeni imajı 
 docker hub'a gönderin. Alistirma repository'inizden imajı check edin. 
 
 7:Bu alistirma.txt dosyasının olduğu klasörde bir Dockerfile oluşturun: 
