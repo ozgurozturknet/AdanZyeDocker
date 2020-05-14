@@ -37,8 +37,3 @@ Dockerfile (# escape=`) komutuyla başlamalıdır. Bu, backstick'i bir kaçış 
 Shell ile ilgili uyumsuzlukları önlemek için PowerShell'i varsayılan shell olarak ayarlayın. 
 Dockerfile dosyanızdaki aşağıdaki talimatı kullanın. (P.S. Powershell, Nanoserver temel image'ine dahil değildir)
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop';"]
-
-
-
-mcr.microsoft.com/windows/servercore:ltsc2016 
-mcr.microsoft.com/windows/servercore:ltsc2019
