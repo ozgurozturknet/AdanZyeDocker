@@ -1,0 +1,17 @@
+Eğitimi oluştururken yararlandığım kaynakların listesine bu dökümandan erişebilirsiniz.
+
+https://docs.docker.com
+https://en.wikipedia.org/wiki/Docker_(software)#cite_note-docker-announcement-13
+https://www.youtube.com/watch?v=wW9CAH9nSLs The Future of Linux Containers
+https://en.wikipedia.org/wiki/Kernel_(operating_system)
+https://www.techopedia.com/definition/3515/operating-system-os
+https://www.linuxjournal.com/content/everything-you-need-know-about-linux-containers-part-i-linux-control-groups-and-process
+https://en.wikipedia.org/wiki/Cgroups
+https://en.wikipedia.org/wiki/Linux_namespaces
+https://docs.docker.com/engine/docker-overview/
+https://en.wikipedia.org/wiki/Linux_kernel
+https://en.wikipedia.org/wiki/LXC
+https://www.docker.com/products/container-runtime
+https://searchservervirtualization.techtarget.com/feature/The-history-of-Dockers-climb-in-the-container-management-market
+https://searchitoperations.techtarget.com/definition/Docker-image
+https://blog.codeship.com/building-minimal-docker-containers-for-go-applications/
