@@ -32,8 +32,13 @@ IIS
 Windows, container işletim sistemi sürümünün host işletim sistemi sürümüyle eşleşmesini gerektirir. Daha yeni bir Windows derlemesine dayalı bir container çalıştırmak istiyorsanız, eşdeğer bir ana makine derlemesine sahip olduğunuzdan emin olun. Örneğin, ana bilgisayar Windows Server 2019 ise ve Server Core image'ini kullanmak istiyorsanız, image'iniz mcr.microsoft.com/windows/servercore:ltsc2019 olmalıdır. Ancak, host makineniz Windows Server 2019 ise, image'iniz mcr.microsoft.com/windows/servercore:ltsc2016 olmalıdır. 
 ---------------------------------------------------------
 Escape yönergesi, Dockerfile'daki karakterlerden kaçmak için kullanılan karakteri ayarlar. Belirtilmezse, varsayılan kaçış karakteri ters eğik çizgi \ olur. Kaçış karakterini backsitck `olarak ayarlamak özellikle Windows'ta kullanışlıdır, burada \ dizin yolu ayırıcısıdır.  
-Dockerfile (# escape = `) komutuyla başlamalıdır. Bu, backstick'i bir kaçış karakteri olarak tanımlayacaktır ve ters eğik çizgi karakterini Dockerfile'da bir dosya yolu olarak kullanabileceğiz.
+Dockerfile (# escape=`) komutuyla başlamalıdır. Bu, backstick'i bir kaçış karakteri olarak tanımlayacaktır ve ters eğik çizgi karakterini Dockerfile'da bir dosya yolu olarak kullanabileceğiz.
 ---------------------------------------------------------
 Shell ile ilgili uyumsuzlukları önlemek için PowerShell'i varsayılan shell olarak ayarlayın. 
 Dockerfile dosyanızdaki aşağıdaki talimatı kullanın. (P.S. Powershell, Nanoserver temel image'ine dahil değildir)
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop';"]
+
+
+
+mcr.microsoft.com/windows/servercore:ltsc2016 
+mcr.microsoft.com/windows/servercore:ltsc2019
