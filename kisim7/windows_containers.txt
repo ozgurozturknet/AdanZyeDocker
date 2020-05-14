@@ -1,4 +1,4 @@
-Windows, kullanıcıların oluşturabileceği dört temel container image tipi sunar. 
+Windows, kullanıcılarının oluşturabileceği dört temel container image tipi sunar. 
 Her image tipi, Windows işletim sisteminin farklı boyutta ve farklı miktarda Windows API seti taşıyan halidir
 
 
