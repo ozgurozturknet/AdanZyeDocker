@@ -12,7 +12,7 @@ Hangi image hangi iş için uygun?
 • .NET Core tabanlı bir Windows uygulaması mı oluşturuyorsunuz? Bu sorunun cevabı evet ise, Nanoserver'ı hedeflemelisiniz.
 • IoT uygulaması mı oluşturuyorsunuz? Bu sorunun cevabı evet ise, IoT Core'u hedeflemelisiniz.
 • Windows Server Core image'inde uygulamanızın ihtiyaç duyduğu bir kütüphane ya da dependency eksik mi? Bu sorunun cevabı evet ise, Windows'u hedeflemeye çalışmalısınız. Bu image diğer temel image'lerden çok daha büyüktür, ancak çekirdek Windows kitaplıklarının çoğunu (GDI kitaplığı gibi) taşır.
-------------------------------------------------------
+-----------------------------------------------------
 Bir .Net Framework veya .Net Core tabanlı bir uygulamayı veya bir web uygulaması için IIS'yi mi kullanmak istiyorsunuz?
 O zaman Server Core alıp üstüne bu araçları yüklemekle boşuna vakit kaybetmeyin. 
 Microsoft temelde .net yüklü olan hem .Net Framework hem de .Net Core temel image'lerini (hem SDK hem de Runtime) yayınlar. Kendi .net image'lerinizi sıfırdan oluşturmak yerine her zaman bu dotnet temel image'lerini kullanın.
