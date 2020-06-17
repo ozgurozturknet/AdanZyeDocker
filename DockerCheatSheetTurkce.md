@@ -1,3 +1,5 @@
+[A'dan Z'ye Docker](https://ozgurozturk.net/docker-udemy) eğitimimdeki öğrencilerimin yararlanabilmesi adına Docker Cheat Sheet yani Türkçeleştirirsek "Docker komutlarının nasıl kullanıldığının bir listesi" hazırladım. Yararlı bir derleme olduğunu düşünüyorum. Daha geniş bir kitleye ulaşabilmesi için de burada yayınlıyorum. Kolay gelsin.  
+
 ***Docker Cheat Sheet (Türkçe)***
 ___
 
