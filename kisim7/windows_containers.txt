@@ -1,11 +1,12 @@
 Windows, kullanıcılarının oluşturabileceği dört temel container image tipi sunar. 
 Her image tipi, Windows işletim sisteminin farklı boyutta ve farklı miktarda Windows API seti taşıyan halidir
 
-
+----
 Windows Server Core: Supports Traditional .Net Framework Applications | https://hub.docker.com/_/microsoft-windows-servercore
 Nano Server: Built for .Net Core Applications. | https://hub.docker.com/_/microsoft-windows-nanoserver
 Windows: Provides the full Windows Api set. | https://hub.docker.com/_/microsoft-windows
 Windows IoT Core: Purpose-built for IoT applications. | https://hub.docker.com/_/microsoft-windows-iotcore
+-----
 
 Hangi image hangi iş için uygun?
 • Uygulamanız için tam .NET framework gerekiyor mu? Bu sorunun cevabı evet ise, Windows Server Core'u hedeflemelisiniz.
