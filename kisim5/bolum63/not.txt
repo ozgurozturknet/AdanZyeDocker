@@ -1,0 +1,7 @@
+Not: Linux işletim sistemini kullanıyorsanız ve kisim5/bolum63 dizini içerisindeki 
+alistirma.txt dosyasının 7. adımında imajı oluşturup container çalıştırırken hata
+alıyorsanız; 
+1. kisim5/bolum63 dizinine terminalden geçiş yapın.
+2. "chmod +x html/kirmizi/script.sh && chmod +x html/sari/script.sh" komutlarını
+çalıştırarak script.sh dosyalarına executable yani çalıştırılabilir iznini verin. 
+3. Bu adımları gerçekleştirdikten sonra container sistemde başka hata yoksa çalışacaktır.
