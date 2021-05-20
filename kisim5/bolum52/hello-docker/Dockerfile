@@ -16,9 +16,9 @@ ENV KULLANICI="Dunyali"
 # nginx debian-slim imajı baz alınarak oluşturulmuştur.
 # bu imajda geriye doğru uyumluluk sorunları var ve o nedenle update olmuyor. 
 #Bu url'leri sources.list'e ekleyerek update olabilmesini sağlıyoruz
-RUN printf "deb http://archive.debian.org/debian/ jessie main\ndeb-src http://archive.debian.org/debian/ jessie main\ndeb http://security.debian.org jessie/updates main\ndeb-src http://security.debian.org jessie/updates main" > /etc/apt/sources.list
+#RUN printf "deb http://archive.debian.org/debian/ jessie main\ndeb-src http://archive.debian.org/debian/ jessie main\ndeb http://security.debian.org jessie/updates main\ndeb-src http://security.debian.org jessie/updates main" > /etc/apt/sources.list
 
-# Sisteme güncellemeleri geçiyoruz
+# Uygulama depolarından mevcut paketlerin en son listesini çekip güncelliyoruz. 
 RUN apt-get update
 
 # debian-slim'de bir çok tool mevcut değil. Bizim curl kullanmamız gerektiği için curl kuruyoruz
