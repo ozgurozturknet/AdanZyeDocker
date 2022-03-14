@@ -1,0 +1,12 @@
+wordpress:latest ve mysql:5.7 resmi imajlarindan olusan servislerin olacagi bir Docker Stack olusturmanizi istiyorum.
+Bu stack'i deploy etmek için bir docker-compose.yml dosyasi olusturmanizi ve deploy etmenizi ve wordpress'in düzgün çalistigini,
+yani düzgün sekilde deploy edebildiginizi teyit etmenizi bekliyorum.
+>>Tek kuralim var.
+Wordpress ve mysql servislerini ayaga kaldirirken onlara mysql sifresi belirtmeniz gerekiyor ve bunu environment variable olarak
+servise atayabilirsiniz. Fakat ben bunu direk compose file içinden belirlememenizi onun yerine bunu secret olarak tanimlayarak 
+o skeilde atamanizi istiyorum.
+Ayrica bu secret'i da ayni docker-compose.yml dosyasi içerisinden olusuturmanizi bekliyorum.
+
+>>wordpress:latest ve mysql:5.7 kullanan servisler ile stack olustur
+>>mysql ve wordpress imajlarindan container yaratirken mysql sifresi belirlememiz gerekiyor. Bunu secret olarak belirle
+>>Bu secret'i da ayni docker-compose.yml içerisinden olustur
